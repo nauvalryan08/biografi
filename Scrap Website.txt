@@ -1,0 +1,23 @@
+Heading Utama: Hai, saya Nauval Khairiyan
+H1: Hai, saya Nauval Khairiyan
+H2: Seorang Mahasiswa Politeknik Negeri Bandung
+H3: Tentang Saya
+H3: Pengalaman
+H3: Keterampilan
+H3: Hubungi Saya
+H4: Fakta Menarik
+Paragraf 1 dalam Tentang: 
+          Halo, saya adalah seorang mahasiswa di Politeknik Negeri Bandung. Saya memiliki minat dalam pengembangan web, pemrograman, dan desain perancangan antarmuka.
+        
+Paragraf 2 dalam Tentang: 
+            Saya merupakan seseorang yang memiliki semangat yang tinggi dalam belajar hal baru. Ketika saya belajar mengenai sesuatu hal, saya akan memberikan waktu dan usaha saya agar saya dapat mempelajari hal tersebut dengan maksimal.
+
+Link Navigasi: #tentang - Tentang
+Link Navigasi: #pengalaman - Pengalaman
+Link Navigasi: #kontak - Kontak
+Input Form: name Tipe: text
+Input Form: color Tipe: color
+Input Form: start Tipe: date
+Input Form: radio Tipe: radio
+Input Form: radio Tipe: radio
+Input Form: radio Tipe: radio

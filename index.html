@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biografi Saya</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      hr {
+        margin: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header: Judul dan Navigasi -->
+    <header>
+      <h1>Hai, saya Nauval Khairiyan</h1>
+      <h2>Seorang Mahasiswa Politeknik Negeri Bandung</h2>
+      <img src="fotoku.jpg"/>
+      <nav>
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+      <!-- Bagian Tentang (Biografi) -->
+      <article id="tentang">
+        <h3>Tentang Saya</h3>
+        <p>
+          Halo, saya adalah seorang mahasiswa di Politeknik Negeri Bandung. Saya memiliki minat dalam pengembangan web, pemrograman, dan desain perancangan antarmuka.
+        </p>
+        <div>
+          <p>
+            Saya merupakan seseorang yang memiliki semangat yang tinggi dalam belajar hal baru. Ketika saya belajar mengenai sesuatu hal, saya akan memberikan waktu dan usaha saya agar saya dapat mempelajari hal tersebut dengan maksimal.
+          </p>
+        </div>
+      </article>
+
+      <!-- Bagian Pengalaman -->
+      <article id="pengalaman">
+        <h3>Pengalaman</h3>
+        <ul>
+          <li>Ninos Edutainment Park : Sound Operator (April-Mei 2024)</li>
+          <li>Politeknik Negeri Bandung : Project Game 2048 (Desember 2024)</li>
+        </ul>
+      </article>
+
+      <!-- Bagian Keterampilan: Tabel Keterampilan -->
+      <article id="keterampilan">
+        <h3>Keterampilan</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Keterampilan</th>
+              <th>Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML/CSS</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Beginner</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </main>
+
+    <!-- Aside: Informasi Tambahan -->
+    <aside>
+      <h4>Fakta Menarik</h4>
+      <p>Saya memiliki kemampuan dalam analisa teknikal suatu instrumen keuangan</p>
+      <img src="trade.jpg"/>
+    </aside>
+
+    <!-- Footer: Kontak -->
+    <footer id="kontak">
+      <h3>Hubungi Saya</h3>
+      <form action="#" method="post">
+        <label for="name">Masukkan nama kamu:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="options">Pilih opsi kontak:</label>
+        <select id="options" name="option">
+          <option value="option1">WA : 082174670512</option>
+          <option value="option2">IG : @nauval_ryn</option>
+        </select><br /><br />
+
+        <label for="color">Pilih warna:</label>
+        <input type="color" id="color" name="color" /><br /><br />
+
+        <label for="start">Tanggal Mulai:</label>
+        <input type="date" id="start" name="start" value="2018-07-22" /><br /><br />
+
+        <fieldset>
+          <legend>Pilih salah satu:</legend>
+          <input type="radio" id="r1" name="radio" value="Radio 1" />
+          <label for="r1">HTML</label>
+          <input type="radio" id="r2" name="radio" value="Radio 2" />
+          <label for="r2">CSS</label>
+          <input type="radio" id="r3" name="radio" value="Radio 3" />
+          <label for="r3">Python</label>
+        </fieldset>
+        <br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+  </body>
+</html>
